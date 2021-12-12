@@ -3,7 +3,6 @@
 :root {
     --dark-color: #000000;
     --white-color: #ffffff;
-    --light-grey-color: #f5f5f5;
     --orange-color: #FFB22A;
 }
 
@@ -11,11 +10,6 @@
     font-family: 'Oswald', sans-serif;
 }
 
-
-
-a:hover { 
-	text-decoration: none; 
-}
 
 .jumbotron{
 	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/banner.jpg") no-repeat center center fixed;
@@ -29,17 +23,14 @@ a:hover {
 }
 
 
-/*Barra de navegacion*/
-.navbar-toggler:focus{
-	outline: none;
-}
+/**********Barra de navegacion**********/
 .bgDark {
 	background-color: var(--dark-color); 
 }
 
 
 
-/*Footer*/
+/************Footer***********/
 
 footer {
     padding: 80px 0;
@@ -167,17 +158,4 @@ span {
 
 #datos_alumno {
     min-height: 80vh;
-}
-
-/* //////////////
-   Media queries
-//////////////*/
-
-@media (max-width: 575.98px) {
-    .footer-menu { 
-        display: block !important;
-        padding: 20px 0 !important;
-        font-size: 20px;
-    
-    }
 }
