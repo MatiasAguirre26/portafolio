@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="es">
+	<head>
+	    <!-- Required meta tags -->
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	    <!-- Bootstrap CSS -->
+	    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+	    <!-- ESTILO CSS -->
+		<link rel="stylesheet" type="text/css" href="../css/estilo.css">
+		
+		<!--Font Awesome(iconos)-->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+		<!--JQuery-->
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		
+		<!--Nanogallery2-->
+		
+		<link href="https://cdn.jsdelivr.net/npm/nanogallery2@3/dist/css/nanogallery2.min.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/nanogallery2@3/dist/jquery.nanogallery2.min.js"></script>
+
+	    <title>Portafolio - Diseño Grafico</title>
+	</head>
+	<body>
+		<!--BARRA DE NAVEGACION-->
+		<nav class="navbar navbar-expand-md navbar-dark bgDark">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="../index.html"><img src="../img/logotipo.jpg" alt="" width="30" height="24" class="d-inline-block align-text-top"></a>
+
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">Portafolio</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="./portafolio_diseño_grafico.html">Diseño Grafico</a>
+								<a class="dropdown-item" href="./portafolio_animacion.html">Animacion</a>
+								<a class="dropdown-item" href="./portafolio_diseño_rrss.html">Diseño para RRSS</a>
+								<a class="dropdown-item" href="./portafolio_web.html">Diseño Web</a>
+							</div>
+						</li>
+						<li class="nav-item"><a class="nav-link" href="../servicios/servicios.html">Servicios</a></li>
+						<li class="nav-item"><a class="nav-link" href="../sobre_mi/sobre-mi.html">Sobre mi</a></li>
+						<li class="nav-item"><a class="nav-link" href="../contacto/contacto.html">Contacto</a></li>
+						<li class="nav-item"><a class="nav-link" href="../datos_alumno/datos-alumno.html">UNA</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<!--Portafolio Nanogallery2-->
+		<div class="container">
+			<h1 class="text-center mt-5 mb-5">Portafolio de Diseño Grafico</h1>
+			<div id="Galeria" data-nanogallery2='{
+				"itemsBaseURL": "../img/reel/",
+				"thumbnailWidth": "500 XS200 SM300 LA400 XL500",
+				"thumbnailHeight": "auto",
+				"thumbnailBorderVertical": 0,
+				"thumbnailBorderHorizontal": 0,
+				"thumbnailDisplayTransition": "scaleDown",
+				"thumbnailLabel": {
+				"position": "overImageOnBottom"
+				},
+				"thumbnailHoverEffect2": "imageScale150|labelAppear75",
+				"thumbnailAlignment": "center",
+				"thumbnailOpenImage": true
+			}'>
+				<a href="Volante_de_gastronomia.jpg"  data-ngthumb="Volante_de_gastronomia.jpg" data-ngdesc="">Imagen 1</a>
+				<a href="tarjeta_de_presentacion.jpg" data-ngthumb="tarjeta_de_presentacion.jpg" data-ngdesc="">Imagen 2</a>
+				<a href="portada_disco.jpg" data-ngthumb="portada_disco.jpg" data-ngdesc="">Imagen 4</a>
+				<a href="Logo_memoria_nativa.jpg" data-ngthumb="Logo_memoria_nativa.jpg" data-ngdesc="">Imagen 4</a>
+				<a href="calendario_semanal.jpg" data-ngthumb="calendario_semanal.jpg" data-ngdesc="">Imagen 4</a>
+				<a href="Flyer_asus.jpg" data-ngthumb="Flyer_asus.jpg" data-ngdesc="">Imagen 4</a>
+				<a href="Tarjeta_invitacion_a_comunion.jpg" data-ngthumb="Tarjeta_invitacion_a_comunion.jpg" data-ngdesc="">Imagen 4</a>
+				<a href="Taza_personalizada.jpg" data-ngthumb="Taza_personalizada.jpg" data-ngdesc="">Imagen 4</a>
+			</div>
+		</div>
+
+		<!--PIE DE PAGINA-->
+		<footer class="bgDark mt-5">
+			<div class="container-fluid">
+				<small>© 2021 Todos los derechos reservados. Creado por <a href="../datos_alumno/datos-alumno.html" class="font-weight-bold" target="_blank" rel="noopener">Matias Aguirre</a></small>
+			</div>
+		</footer>
+		<!--PIE DE PAGINA-->
+
+	    <!-- Optional JavaScript -->
+	    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+	</body>
+</html>

@@ -1,0 +1,183 @@
+/*VARIABLES*/
+
+:root {
+    --dark-color: #000000;
+    --white-color: #ffffff;
+    --light-grey-color: #f5f5f5;
+    --orange-color: #FFB22A;
+}
+
+* {
+    font-family: 'Oswald', sans-serif;
+}
+
+
+
+a:hover { 
+	text-decoration: none; 
+}
+
+.jumbotron{
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/banner.jpg") no-repeat center center fixed;
+	display: table;
+	min-height: 58rem;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+	color: white;
+    margin-bottom: 0%;
+}
+
+
+/*Barra de navegacion*/
+.navbar-toggler:focus{
+	outline: none;
+}
+.bgDark {
+	background-color: var(--dark-color); 
+}
+
+
+
+/*Footer*/
+
+footer {
+    padding: 80px 0;
+    text-align: center;
+    color: var(--white-color);
+}
+
+footer a {
+    color: var(--white-color);
+}
+
+footer a:hover {
+    color: var(--white-color);
+}
+
+footer .list-inline .list-inline-item {
+    padding: 10px 15px;
+}
+
+/*********PAGINA DE CONTACTO*************/
+
+#contact {
+    margin-bottom: 11rem;
+}
+
+.form-control {
+    font-size: 14px;
+    border: 1px solid #cacaca;
+    padding: 25px;
+    border-radius: 2px;
+}
+
+.btn {
+    font-size: 14px;
+    padding: 15px 26px;
+    min-width: 160px;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+.btn-default {
+    width: 100%;
+    background-color: var(--dark-color);
+    color: var(--white-color);
+    border: 2px solid var(--dark-color);
+}
+
+.btn:hover {
+    color: var(--white-color);
+}
+
+.size-icon {
+    font-size: 2rem;
+}
+
+
+
+/*INDEX*/
+
+/*****ENCABEZADO**********/
+
+.btn-white {
+    background-color: var(--orange-color) ;
+    color: var(--dark-color) ;
+    font-size: 2rem;
+    border: 0;
+}
+
+span {
+    color: var(--orange-color);
+}
+
+/*****HABILIDADES********/
+
+.progress-bar {
+    background-color: var(--orange-color);
+}
+
+#opacidad_habilidades {
+    background: rgba(255, 255, 255, 0.2)
+}
+
+.bg-habilidades {
+    min-height: 75vh;
+    background: linear-gradient(258.41deg, #000000 -0.69%, #FFB22A 100%);
+}
+
+
+/*********INVITACION A LA SECCION DE PORTAFOLIOS***********/
+
+.bg-portafolios {
+    min-height: 75vh;
+}
+
+.borde-portafolio {
+    border-radius: 30px;
+}
+
+
+/*********INVITACION A LA SECCION DE CONTACTO***********/
+
+.bg-contacto {
+    min-height: 55vh;
+    background: linear-gradient(180deg, #FFB22A 0%, #000000 100%);
+}
+
+.text-white {
+    font-size: 3rem;
+    color: var(--white-color);
+}
+
+.btn-negro {
+    background-color: var(--dark-color) ;
+    color: var(--orange-color) ;
+    font-size: 2rem;
+    border: 0;
+}
+
+.text-orange{
+    color: var(--orange-color) ;
+}
+
+
+/*******Pagina UNA*********/
+
+#datos_alumno {
+    min-height: 80vh;
+}
+
+/* //////////////
+   Media queries
+//////////////*/
+
+@media (max-width: 575.98px) {
+    .footer-menu { 
+        display: block !important;
+        padding: 20px 0 !important;
+        font-size: 20px;
+    
+    }
+}
