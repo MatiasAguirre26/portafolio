@@ -10,9 +10,11 @@
     font-family: 'Oswald', sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
 
 .jumbotron{
-	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/banner.jpg") no-repeat center center fixed;
 	display: table;
 	min-height: 58rem;
 	position: relative;
@@ -20,6 +22,7 @@
 	background-size: cover;
 	color: white;
     margin-bottom: 0%;
+    background: linear-gradient(228.41deg, var(--dark-color), var(--orange-color));
 }
 
 
@@ -118,6 +121,31 @@ span {
     background: linear-gradient(258.41deg, #000000 -0.69%, #FFB22A 100%);
 }
 
+.skills_width{
+    width: 25%;
+}
+
+.cards-skills {
+    border: solid white 2px;
+    border-radius: 14px;
+    padding: 1rem;
+    color: white;
+}
+.cards-skills p{
+    margin-top: 1rem;
+    transition: .5s;
+}
+
+.cards-skills:hover {
+    background-color: white;
+    color: black;
+}
+
+
+.cards-skills p:hover{
+    color: black;
+    transform: scale(1.25);
+}
 
 /*********INVITACION A LA SECCION DE PORTAFOLIOS***********/
 
@@ -129,6 +157,13 @@ span {
     border-radius: 30px;
 }
 
+.col-md-3 img {
+    transition: .5s;
+}
+
+.col-md-3 img:hover {
+    transform: scale(1.1);
+}
 
 /*********INVITACION A LA SECCION DE CONTACTO***********/
 
@@ -151,11 +186,4 @@ span {
 
 .text-orange{
     color: var(--orange-color) ;
-}
-
-
-/*******Pagina UNA*********/
-
-#datos_alumno {
-    min-height: 80vh;
 }
